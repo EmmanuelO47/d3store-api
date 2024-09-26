@@ -1,0 +1,1074 @@
+[
+    {
+        "name": "Apple",
+        "description": "Fresh red apple",
+        "product_code": "APL123",
+        "price": 0.99,
+        "quantity": 100,
+        "category_id": "Fruits",
+        "product_image": "https://example.com/images/apple.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Banana",
+        "description": "Organic bananas",
+        "product_code": "BAN234",
+        "price": 0.59,
+        "quantity": 200,
+        "category_id": "Fruits",
+        "product_image": "https://example.com/images/banana.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Carrot",
+        "description": "Fresh carrots",
+        "product_code": "CAR345",
+        "price": 1.49,
+        "quantity": 150,
+        "category_id": "Vegetables",
+        "product_image": "https://example.com/images/carrot.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Tomato",
+        "description": "Juicy tomatoes",
+        "product_code": "TOM456",
+        "price": 2.99,
+        "quantity": 120,
+        "category_id": "Vegetables",
+        "product_image": "https://example.com/images/tomato.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Spinach",
+        "description": "Fresh spinach leaves",
+        "product_code": "SPI567",
+        "price": 1.99,
+        "quantity": 80,
+        "category_id": "Leafy Greens",
+        "product_image": "https://example.com/images/spinach.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Milk",
+        "description": "Whole milk",
+        "product_code": "MIL678",
+        "price": 3.49,
+        "quantity": 60,
+        "category_id": "Dairy",
+        "product_image": "https://example.com/images/milk.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Eggs",
+        "description": "Organic eggs",
+        "product_code": "EGG789",
+        "price": 4.29,
+        "quantity": 90,
+        "category_id": "Dairy",
+        "product_image": "https://example.com/images/eggs.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Chicken Breast",
+        "description": "Boneless chicken breast",
+        "product_code": "CHB890",
+        "price": 6.99,
+        "quantity": 50,
+        "category_id": "Meat",
+        "product_image": "https://example.com/images/chicken_breast.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Salmon Fillet",
+        "description": "Fresh salmon fillet",
+        "product_code": "SAL901",
+        "price": 12.99,
+        "quantity": 40,
+        "category_id": "Seafood",
+        "product_image": "https://example.com/images/salmon.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Almonds",
+        "description": "Raw almonds",
+        "product_code": "ALM012",
+        "price": 8.49,
+        "quantity": 70,
+        "category_id": "Nuts & Seeds",
+        "product_image": "https://example.com/images/almonds.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Orange Juice",
+        "description": "Freshly squeezed orange juice",
+        "product_code": "OJ013",
+        "price": 3.99,
+        "quantity": 60,
+        "category_id": "Beverages",
+        "product_image": "https://example.com/images/orange_juice.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Bread",
+        "description": "Whole grain bread",
+        "product_code": "BRE014",
+        "price": 2.49,
+        "quantity": 80,
+        "category_id": "Bakery",
+        "product_image": "https://example.com/images/bread.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Butter",
+        "description": "Unsalted butter",
+        "product_code": "BUT015",
+        "price": 3.99,
+        "quantity": 70,
+        "category_id": "Dairy",
+        "product_image": "https://example.com/images/butter.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Cheddar Cheese",
+        "description": "Aged cheddar cheese",
+        "product_code": "CHE016",
+        "price": 4.99,
+        "quantity": 60,
+        "category_id": "Dairy",
+        "product_image": "https://example.com/images/cheddar_cheese.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Yogurt",
+        "description": "Greek yogurt",
+        "product_code": "YOG017",
+        "price": 1.49,
+        "quantity": 90,
+        "category_id": "Dairy",
+        "product_image": "https://example.com/images/yogurt.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Olive Oil",
+        "description": "Extra virgin olive oil",
+        "product_code": "OIL018",
+        "price": 9.99,
+        "quantity": 50,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/olive_oil.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Pasta",
+        "description": "Whole wheat pasta",
+        "product_code": "PAS019",
+        "price": 2.99,
+        "quantity": 100,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/pasta.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Rice",
+        "description": "Basmati rice",
+        "product_code": "RIC020",
+        "price": 4.49,
+        "quantity": 80,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/rice.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Cereal",
+        "description": "Whole grain oatmeal cereal",
+        "product_code": "CER023",
+        "price": 4.99,
+        "quantity": 100,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/cereal.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Honey",
+        "description": "Raw honey",
+        "product_code": "HON024",
+        "price": 6.99,
+        "quantity": 60,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/honey.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Sugar",
+        "description": "Organic cane sugar",
+        "product_code": "SUG025",
+        "price": 3.49,
+        "quantity": 90,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/sugar.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Salt",
+        "description": "Sea salt",
+        "product_code": "SAL026",
+        "price": 1.99,
+        "quantity": 100,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/salt.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Pepper",
+        "description": "Ground black pepper",
+        "product_code": "PEP027",
+        "price": 2.99,
+        "quantity": 80,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/pepper.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Flour",
+        "description": "All-purpose flour",
+        "product_code": "FLO028",
+        "price": 2.49,
+        "quantity": 120,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/flour.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Baking Powder",
+        "description": "Aluminum-free baking powder",
+        "product_code": "BAK029",
+        "price": 1.99,
+        "quantity": 60,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/baking_powder.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Baking Soda",
+        "description": "Pure baking soda",
+        "product_code": "BAK030",
+        "price": 0.99,
+        "quantity": 100,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/baking_soda.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Tomato Sauce",
+        "description": "Organic tomato sauce",
+        "product_code": "TOM031",
+        "price": 2.49,
+        "quantity": 80,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/tomato_sauce.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Canned Beans",
+        "description": "Black beans",
+        "product_code": "BEA032",
+        "price": 1.29,
+        "quantity": 70,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/canned_beans.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Peanut Butter",
+        "description": "Natural peanut butter",
+        "product_code": "PBU033",
+        "price": 4.99,
+        "quantity": 60,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/peanut_butter.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Jam",
+        "description": "Strawberry jam",
+        "product_code": "JAM034",
+        "price": 3.49,
+        "quantity": 90,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/jam.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Coffee",
+        "description": "Ground coffee",
+        "product_code": "COF035",
+        "price": 7.99,
+        "quantity": 50,
+        "category_id": "Beverages",
+        "product_image": "https://example.com/images/coffee.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Tea",
+        "description": "Green tea",
+        "product_code": "TEA036",
+        "price": 4.99,
+        "quantity": 100,
+        "category_id": "Beverages",
+        "product_image": "https://example.com/images/tea.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Soda",
+        "description": "Cola soda",
+        "product_code": "SOD037",
+        "price": 1.49,
+        "quantity": 200,
+        "category_id": "Beverages",
+        "product_image": "https://example.com/images/soda.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Water",
+        "description": "Bottled water",
+        "product_code": "WAT038",
+        "price": 0.99,
+        "quantity": 300,
+        "category_id": "Beverages",
+        "product_image": "https://example.com/images/water.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Laundry Detergent",
+        "description": "Liquid laundry detergent",
+        "product_code": "LAU039",
+        "price": 12.99,
+        "quantity": 50,
+        "category_id": "Household Supplies",
+        "product_image": "https://example.com/images/laundry_detergent.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Dish Soap",
+        "description": "Lemon dish soap",
+        "product_code": "DIS040",
+        "price": 2.99,
+        "quantity": 70,
+        "category_id": "Household Supplies",
+        "product_image": "https://example.com/images/dish_soap.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Paper Towels",
+        "description": "2-ply paper towels",
+        "product_code": "PAP041",
+        "price": 5.99,
+        "quantity": 90,
+        "category_id": "Household Supplies",
+        "product_image": "https://example.com/images/paper_towels.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Dog Food",
+        "description": "Chicken and rice dog food",
+        "product_code": "DOG042",
+        "price": 19.99,
+        "quantity": 40,
+        "category_id": "Pet Supplies",
+        "product_image": "https://example.com/images/dog_food.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Cat Food",
+        "description": "Salmon cat food",
+        "product_code": "CAT043",
+        "price": 16.99,
+        "quantity": 50,
+        "category_id": "Pet Supplies",
+        "product_image": "https://example.com/images/cat_food.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Bird Seed",
+        "description": "Mixed bird seed",
+        "product_code": "BIR044",
+        "price": 10.49,
+        "quantity": 60,
+        "category_id": "Pet Supplies",
+        "product_image": "https://example.com/images/bird_seed.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Shampoo",
+        "description": "Herbal shampoo",
+        "product_code": "SHA045",
+        "price": 6.49,
+        "quantity": 100,
+        "category_id": "Personal Care",
+        "product_image": "https://example.com/images/shampoo.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Conditioner",
+        "description": "Herbal conditioner",
+        "product_code": "CON046",
+        "price": 6.49,
+        "quantity": 100,
+        "category_id": "Personal Care",
+        "product_image": "https://example.com/images/conditioner.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Toothpaste",
+        "description": "Whitening toothpaste",
+        "product_code": "TOO047",
+        "price": 3.49,
+        "quantity": 90,
+        "category_id": "Personal Care",
+        "product_image": "https://example.com/images/toothpaste.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Body Wash",
+        "description": "Moisturizing body wash",
+        "product_code": "BOD048",
+        "price": 4.99,
+        "quantity": 80,
+        "category_id": "Personal Care",
+        "product_image": "https://example.com/images/body_wash.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Hand Soap",
+        "description": "Antibacterial hand soap",
+        "product_code": "HAN049",
+        "price": 2.99,
+        "quantity": 100,
+        "category_id": "Personal Care",
+        "product_image": "https://example.com/images/hand_soap.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Face Mask",
+        "description": "Hydrating face mask",
+        "product_code": "FAC050",
+        "price": 3.99,
+        "quantity": 90,
+        "category_id": "Personal Care",
+        "product_image": "https://example.com/images/face_mask.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+
+    {
+        "name": "Ground Beef",
+        "description": "Lean ground beef",
+        "product_code": "GBE051",
+        "price": 7.99,
+        "quantity": 60,
+        "category_id": "Meat",
+        "product_image": "https://example.com/images/ground_beef.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Bacon",
+        "description": "Crispy bacon",
+        "product_code": "BAC052",
+        "price": 5.99,
+        "quantity": 80,
+        "category_id": "Meat",
+        "product_image": "https://example.com/images/bacon.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Broccoli",
+        "description": "Fresh broccoli florets",
+        "product_code": "BRO053",
+        "price": 2.49,
+        "quantity": 100,
+        "category_id": "Vegetables",
+        "product_image": "https://example.com/images/broccoli.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Cauliflower",
+        "description": "Organic cauliflower",
+        "product_code": "CAU054",
+        "price": 2.99,
+        "quantity": 90,
+        "category_id": "Vegetables",
+        "product_image": "https://example.com/images/cauliflower.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Bell Peppers",
+        "description": "Mixed bell peppers",
+        "product_code": "BEP055",
+        "price": 3.99,
+        "quantity": 70,
+        "category_id": "Vegetables",
+        "product_image": "https://example.com/images/bell_peppers.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Zucchini",
+        "description": "Fresh zucchini",
+        "product_code": "ZUC056",
+        "price": 1.99,
+        "quantity": 110,
+        "category_id": "Vegetables",
+        "product_image": "https://example.com/images/zucchini.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Cucumber",
+        "description": "Crispy cucumber",
+        "product_code": "CUC057",
+        "price": 0.99,
+        "quantity": 120,
+        "category_id": "Vegetables",
+        "product_image": "https://example.com/images/cucumber.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Lettuce",
+        "description": "Green leaf lettuce",
+        "product_code": "LET058",
+        "price": 1.49,
+        "quantity": 100,
+        "category_id": "Leafy Greens",
+        "product_image": "https://example.com/images/lettuce.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Kale",
+        "description": "Organic kale",
+        "product_code": "KAL059",
+        "price": 2.49,
+        "quantity": 90,
+        "category_id": "Leafy Greens",
+        "product_image": "https://example.com/images/kale.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Celery",
+        "description": "Crispy celery",
+        "product_code": "CEL060",
+        "price": 1.99,
+        "quantity": 80,
+        "category_id": "Vegetables",
+        "product_image": "https://example.com/images/celery.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Blueberries",
+        "description": "Fresh blueberries",
+        "product_code": "BLU061",
+        "price": 3.99,
+        "quantity": 100,
+        "category_id": "Fruits",
+        "product_image": "https://example.com/images/blueberries.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Avocado",
+        "description": "Ripe avocados",
+        "product_code": "AVO051",
+        "price": 1.49,
+        "quantity": 120,
+        "category_id": "Fruits",
+        "product_image": "https://example.com/images/avocado.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Blueberries",
+        "description": "Fresh blueberries",
+        "product_code": "BLU052",
+        "price": 3.99,
+        "quantity": 80,
+        "category_id": "Fruits",
+        "product_image": "https://example.com/images/blueberries.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Broccoli",
+        "description": "Organic broccoli",
+        "product_code": "BRO053",
+        "price": 2.49,
+        "quantity": 100,
+        "category_id": "Vegetables",
+        "product_image": "https://example.com/images/broccoli.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Cucumber",
+        "description": "Fresh cucumbers",
+        "product_code": "CUC054",
+        "price": 0.99,
+        "quantity": 150,
+        "category_id": "Vegetables",
+        "product_image": "https://example.com/images/cucumber.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Lettuce",
+        "description": "Crisp lettuce",
+        "product_code": "LET055",
+        "price": 1.79,
+        "quantity": 200,
+        "category_id": "Leafy Greens",
+        "product_image": "https://example.com/images/lettuce.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Mozzarella Cheese",
+        "description": "Fresh mozzarella cheese",
+        "product_code": "MOZ056",
+        "price": 5.49,
+        "quantity": 90,
+        "category_id": "Dairy",
+        "product_image": "https://example.com/images/mozzarella_cheese.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Ground Beef",
+        "description": "Lean ground beef",
+        "product_code": "GRB057",
+        "price": 7.99,
+        "quantity": 70,
+        "category_id": "Meat",
+        "product_image": "https://example.com/images/ground_beef.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Shrimp",
+        "description": "Frozen shrimp",
+        "product_code": "SHR058",
+        "price": 14.99,
+        "quantity": 50,
+        "category_id": "Seafood",
+        "product_image": "https://example.com/images/shrimp.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Walnuts",
+        "description": "Shelled walnuts",
+        "product_code": "WAL059",
+        "price": 9.99,
+        "quantity": 60,
+        "category_id": "Nuts & Seeds",
+        "product_image": "https://example.com/images/walnuts.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Grape Juice",
+        "description": "100% grape juice",
+        "product_code": "GJU060",
+        "price": 4.49,
+        "quantity": 90,
+        "category_id": "Beverages",
+        "product_image": "https://example.com/images/grape_juice.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Croissant",
+        "description": "Buttery croissant",
+        "product_code": "CRO061",
+        "price": 2.99,
+        "quantity": 80,
+        "category_id": "Bakery",
+        "product_image": "https://example.com/images/croissant.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Cream Cheese",
+        "description": "Smooth cream cheese",
+        "product_code": "CRE062",
+        "price": 2.79,
+        "quantity": 100,
+        "category_id": "Dairy",
+        "product_image": "https://example.com/images/cream_cheese.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Parmesan Cheese",
+        "description": "Grated parmesan cheese",
+        "product_code": "PAR063",
+        "price": 5.99,
+        "quantity": 60,
+        "category_id": "Dairy",
+        "product_image": "https://example.com/images/parmesan_cheese.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Hummus",
+        "description": "Classic hummus",
+        "product_code": "HUM064",
+        "price": 3.49,
+        "quantity": 90,
+        "category_id": "Deli",
+        "product_image": "https://example.com/images/hummus.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Coconut Oil",
+        "description": "Organic coconut oil",
+        "product_code": "COI065",
+        "price": 8.99,
+        "quantity": 70,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/coconut_oil.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Spaghetti",
+        "description": "Durum wheat spaghetti",
+        "product_code": "SPA066",
+        "price": 1.49,
+        "quantity": 120,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/spaghetti.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Quinoa",
+        "description": "Organic quinoa",
+        "product_code": "QUI067",
+        "price": 4.99,
+        "quantity": 90,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/quinoa.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Oats",
+        "description": "Old fashioned oats",
+        "product_code": "OAT068",
+        "price": 3.29,
+        "quantity": 110,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/oats.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Maple Syrup",
+        "description": "Pure maple syrup",
+        "product_code": "MAP069",
+        "price": 7.99,
+        "quantity": 60,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/maple_syrup.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Cinnamon",
+        "description": "Ground cinnamon",
+        "product_code": "CIN070",
+        "price": 2.99,
+        "quantity": 80,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/cinnamon.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Almonds",
+        "description": "Raw almonds",
+        "product_code": "ALM071",
+        "price": 9.49,
+        "quantity": 50,
+        "category_id": "Nuts & Seeds",
+        "product_image": "https://example.com/images/almonds.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Cashews",
+        "description": "Roasted cashews",
+        "product_code": "CAS072",
+        "price": 8.99,
+        "quantity": 60,
+        "category_id": "Nuts & Seeds",
+        "product_image": "https://example.com/images/cashews.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Raisins",
+        "description": "Sun-dried raisins",
+        "product_code": "RAI073",
+        "price": 3.99,
+        "quantity": 90,
+        "category_id": "Dried Fruits",
+        "product_image": "https://example.com/images/raisins.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Chickpeas",
+        "description": "Canned chickpeas",
+        "product_code": "CHI074",
+        "price": 1.29,
+        "quantity": 100,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/chickpeas.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Honey",
+        "description": "Raw honey",
+        "product_code": "HON075",
+        "price": 6.49,
+        "quantity": 70,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/honey.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Mustard",
+        "description": "Yellow mustard",
+        "product_code": "MUS076",
+        "price": 1.99,
+        "quantity": 90,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/mustard.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Ketchup",
+        "description": "Tomato ketchup",
+        "product_code": "KET077",
+        "price": 2.49,
+        "quantity": 100,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/ketchup.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Soy Sauce",
+        "description": "Low sodium soy sauce",
+        "product_code": "SOY078",
+        "price": 3.29,
+        "quantity": 80,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/soy_sauce.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Chicken Broth",
+        "description": "Low sodium chicken broth",
+        "product_code": "BRO079",
+        "price": 2.99,
+        "quantity": 70,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/chicken_broth.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Vegetable Broth",
+        "description": "Organic vegetable broth",
+        "product_code": "VEG080",
+        "price": 2.99,
+        "quantity": 70,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/vegetable_broth.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Olive Oil",
+        "description": "Extra virgin olive oil",
+        "product_code": "OLI081",
+        "price": 9.99,
+        "quantity": 50,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/olive_oil.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Vinegar",
+        "description": "Apple cider vinegar",
+        "product_code": "VIN082",
+        "price": 3.99,
+        "quantity": 60,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/vinegar.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Tomato Paste",
+        "description": "Organic tomato paste",
+        "product_code": "TOP083",
+        "price": 1.49,
+        "quantity": 100,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/tomato_paste.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Pasta Sauce",
+        "description": "Marinara pasta sauce",
+        "product_code": "PAS084",
+        "price": 3.99,
+        "quantity": 80,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/pasta_sauce.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Rice",
+        "description": "Basmati rice",
+        "product_code": "RIC085",
+        "price": 4.99,
+        "quantity": 110,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/rice.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Brown Rice",
+        "description": "Organic brown rice",
+        "product_code": "BRI086",
+        "price": 3.99,
+        "quantity": 90,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/brown_rice.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Chili Powder",
+        "description": "Spicy chili powder",
+        "product_code": "CHI087",
+        "price": 2.49,
+        "quantity": 100,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/chili_powder.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Turmeric",
+        "description": "Ground turmeric",
+        "product_code": "TUR088",
+        "price": 3.29,
+        "quantity": 80,
+        "category_id": "Pantry",
+        "product_image": "https://example.com/images/turmeric.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Chicken Breast",
+        "description": "Boneless chicken breast",
+        "product_code": "CHB089",
+        "price": 7.49,
+        "quantity": 70,
+        "category_id": "Meat",
+        "product_image": "https://example.com/images/chicken_breast.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Salmon Fillet",
+        "description": "Fresh salmon fillet",
+        "product_code": "SAL090",
+        "price": 12.99,
+        "quantity": 50,
+        "category_id": "Seafood",
+        "product_image": "https://example.com/images/salmon_fillet.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Frozen Peas",
+        "description": "Organic frozen peas",
+        "product_code": "FRO091",
+        "price": 2.49,
+        "quantity": 90,
+        "category_id": "Frozen Foods",
+        "product_image": "https://example.com/images/frozen_peas.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Frozen Spinach",
+        "description": "Organic frozen spinach",
+        "product_code": "FRO092",
+        "price": 2.99,
+        "quantity": 80,
+        "category_id": "Frozen Foods",
+        "product_image": "https://example.com/images/frozen_spinach.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Vanilla Ice Cream",
+        "description": "Creamy vanilla ice cream",
+        "product_code": "ICE093",
+        "price": 4.99,
+        "quantity": 70,
+        "category_id": "Frozen Foods",
+        "product_image": "https://example.com/images/vanilla_ice_cream.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Chocolate Ice Cream",
+        "description": "Rich chocolate ice cream",
+        "product_code": "ICE094",
+        "price": 4.99,
+        "quantity": 70,
+        "category_id": "Frozen Foods",
+        "product_image": "https://example.com/images/chocolate_ice_cream.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Dish Soap",
+        "description": "Lemon scented dish soap",
+        "product_code": "DIS095",
+        "price": 2.49,
+        "quantity": 80,
+        "category_id": "Household Supplies",
+        "product_image": "https://example.com/images/dish_soap.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Paper Towels",
+        "description": "2-ply paper towels",
+        "product_code": "PAP096",
+        "price": 5.99,
+        "quantity": 90,
+        "category_id": "Household Supplies",
+        "product_image": "https://example.com/images/paper_towels.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Laundry Detergent",
+        "description": "High-efficiency laundry detergent",
+        "product_code": "LAU097",
+        "price": 11.99,
+        "quantity": 60,
+        "category_id": "Household Supplies",
+        "product_image": "https://example.com/images/laundry_detergent.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    },
+    {
+        "name": "Garbage Bags",
+        "description": "Heavy-duty garbage bags",
+        "product_code": "GAR098",
+        "price": 7.49,
+        "quantity": 100,
+        "category_id": "Household Supplies",
+        "product_image": "https://example.com/images/garbage_bags.jpg",
+        "store_id": "9c93935a-7fe8-4520-bec3-7aee3758677e"
+    },
+    {
+        "name": "Cat Food",
+        "description": "Grain-free cat food",
+        "product_code": "CAT099",
+        "price": 19.99,
+        "quantity": 50,
+        "category_id": "Pet Supplies",
+        "product_image": "https://example.com/images/cat_food.jpg",
+        "store_id": "9c93935a-8e83-4ff9-b6d0-22805c1bdc36"
+    },
+    {
+        "name": "Dog Food",
+        "description": "High-protein dog food",
+        "product_code": "DOG100",
+        "price": 24.99,
+        "quantity": 40,
+        "category_id": "Pet Supplies",
+        "product_image": "https://example.com/images/dog_food.jpg",
+        "store_id": "9c93935a-9bab-4e98-84d6-56b134f9d505"
+    }
+]
+

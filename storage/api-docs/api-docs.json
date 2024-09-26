@@ -1,0 +1,524 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "D3 Store API Documentation",
+        "contact": {
+            "email": "info@visiosoft.com.ng"
+        },
+        "version": "0.1"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:8000/api/",
+            "description": "D3 Store API Documentation"
+        }
+    ],
+    "paths": {
+        "/v1/auth/regiser": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "New Registration",
+                "operationId": "6a8ac01333c3bde4b6cc16574cabec27",
+                "parameters": [
+                    {
+                        "parameter": "firstname_in_query",
+                        "name": "firstname",
+                        "in": "query",
+                        "description": "The user firstname",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "parameter": "lastname_in_query",
+                        "name": "lastname",
+                        "in": "query",
+                        "description": "User lastname",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "parameter": "phone_number_in_query",
+                        "name": "phone_number",
+                        "in": "query",
+                        "description": "User Phone Number",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "parameter": "email_in_query",
+                        "name": "email",
+                        "in": "query",
+                        "description": "User email",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "parameter": "username_in_query",
+                        "name": "username",
+                        "in": "query",
+                        "description": "username",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "parameter": "password_in_query",
+                        "name": "password",
+                        "in": "query",
+                        "description": "password",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "parameter": "validation_type_in_query",
+                        "name": "validation_type",
+                        "in": "query",
+                        "description": "validation_type",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Invalid request"
+                    }
+                }
+            }
+        },
+        "/v1/auth/email/verify/{id}/{hash}": {
+            "get": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "Verify user email",
+                "operationId": "cc5627385761ea30538b23e52aaae2dc",
+                "parameters": [
+                    {
+                        "parameter": "id_in_path",
+                        "name": "id",
+                        "in": "path",
+                        "description": "The user id",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "parameter": "hash_in_path",
+                        "name": "hash",
+                        "in": "path",
+                        "description": "The generated hash",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Invalid request"
+                    }
+                }
+            }
+        },
+        "/v1/auth/reset-password": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "Reset User Password",
+                "operationId": "a0eaae7726cb0b2ece5901793d1ace37",
+                "parameters": [
+                    {
+                        "parameter": "id_in_query",
+                        "name": "id",
+                        "in": "query",
+                        "description": "The user id",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "parameter": "hash_in_query",
+                        "name": "hash",
+                        "in": "query",
+                        "description": "The generated hash",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "parameter": "password_in_query",
+                        "name": "password",
+                        "in": "query",
+                        "description": "New Password",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Invalid request"
+                    }
+                }
+            }
+        },
+        "/v1/auth/login": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "Login",
+                "operationId": "bbf9a3348bbd89cebbb2d35221342134",
+                "parameters": [
+                    {
+                        "parameter": "email_in_query",
+                        "name": "email",
+                        "in": "query",
+                        "description": "The user email",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "parameter": "password_in_query",
+                        "name": "password",
+                        "in": "query",
+                        "description": "New Password",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Invalid request"
+                    }
+                }
+            }
+        },
+        "/v1/auth/forgot-password/otp": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "Forot password via OTP",
+                "operationId": "fd4234b9a568c7da4f48e68b830bef8b",
+                "parameters": [
+                    {
+                        "parameter": "phone_number_in_query",
+                        "name": "phone_number",
+                        "in": "query",
+                        "description": "The user phone_number",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Invalid request"
+                    }
+                }
+            }
+        },
+        "/v1/auth/forgot-password": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "Forot password",
+                "operationId": "33f81a65c56eec2cf708c4207c6c4bd0",
+                "parameters": [
+                    {
+                        "parameter": "phone_number_in_query",
+                        "name": "phone_number",
+                        "in": "query",
+                        "description": "The user phone_number",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "parameter": "new_password_in_query",
+                        "name": "new_password",
+                        "in": "query",
+                        "description": "New Password",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Invalid request"
+                    }
+                }
+            }
+        },
+        "/v1/auth/check-email-exists": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "Check if email exists",
+                "operationId": "7de3409d29e2782d63b0d0c49d184191",
+                "parameters": [
+                    {
+                        "parameter": "email_in_path",
+                        "name": "email",
+                        "in": "path",
+                        "description": "The user email",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Invalid request"
+                    }
+                }
+            }
+        },
+        "/v1/auth/logout": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "Logout of application",
+                "operationId": "ebf71858deb39b553427120a17de3a3d",
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Invalid request"
+                    }
+                }
+            }
+        },
+        "/v1/customer/details/": {
+            "get": {
+                "tags": [
+                    "Customer"
+                ],
+                "summary": "Get stores list based on location id",
+                "operationId": "717f97b963e8d20aa70bedd9f6a62076",
+                "parameters": [
+                    {
+                        "parameter": "location_id_in_path",
+                        "name": "location_id",
+                        "in": "path",
+                        "description": "The location id",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Invalid request"
+                    }
+                }
+            }
+        },
+        "/v1/customer/cart/": {
+            "get": {
+                "tags": [
+                    "Customer"
+                ],
+                "summary": "Get customer cart details based on customer id",
+                "operationId": "bdcd4ea1195756e45ba950a747af2cdd",
+                "parameters": [
+                    {
+                        "parameter": "customer_id_in_path",
+                        "name": "customer_id",
+                        "in": "path",
+                        "description": "The customer id",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Invalid request"
+                    }
+                }
+            }
+        },
+        "/v1/customer/create-cart": {
+            "post": {
+                "tags": [
+                    "Customer"
+                ],
+                "summary": "LoginCreate customer cart",
+                "operationId": "1965c352a856c32d8be304ac5cdd7746",
+                "parameters": [
+                    {
+                        "parameter": "customer_id_in_query",
+                        "name": "customer_id",
+                        "in": "query",
+                        "description": "The customer id",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "parameter": "cart_products_in_query",
+                        "name": "cart_products",
+                        "in": "query",
+                        "description": "Array list of product ids",
+                        "required": true,
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            },
+                            "example": [
+                                "52f2e026-a99a-41ec-93b0-e950fb65d137",
+                                "fc162fb5-88ce-4e9e-ae43-1c12aa8732cf"
+                            ]
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Invalid request"
+                    }
+                }
+            }
+        },
+        "/v1/stores/list/": {
+            "get": {
+                "tags": [
+                    "Store"
+                ],
+                "summary": "Get stores list based on location id",
+                "operationId": "4302fbfe16ae7009d0df5393393a20f8",
+                "parameters": [
+                    {
+                        "parameter": "location_id_in_path",
+                        "name": "location_id",
+                        "in": "path",
+                        "description": "The location id",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Invalid request"
+                    }
+                }
+            }
+        },
+        "/v1/stores/products/": {
+            "get": {
+                "tags": [
+                    "Store"
+                ],
+                "summary": "Get store products based on store id",
+                "operationId": "334f555331edb1642f6fd94826b4e7a6",
+                "parameters": [
+                    {
+                        "parameter": "store_id_in_path",
+                        "name": "store_id",
+                        "in": "path",
+                        "description": "The store id",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Invalid request"
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Auth",
+            "description": "Auth"
+        },
+        {
+            "name": "Customer",
+            "description": "Customer"
+        },
+        {
+            "name": "Store",
+            "description": "Store"
+        }
+    ]
+}

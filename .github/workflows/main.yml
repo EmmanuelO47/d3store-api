@@ -1,0 +1,20 @@
+name: Deploy Development
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Push to server and deploy
+        uses: appleboy/ssh-action@master
+        with:
+          HOST: ${{ secrets.DEV_HOST }}
+          USERNAME: ${{ secrets.DEV_USERNAME }}
+          PORT: ${{ secrets.PORT }}
+          PASSWORD: ${{ secrets.DEV_PASSWORD }}
+          script: cd ${{ secrets.DEV_PATH }} && git pull origin master && composer install 

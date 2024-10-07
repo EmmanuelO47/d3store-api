@@ -17,4 +17,4 @@ jobs:
           USERNAME: ${{ secrets.DEV_USERNAME }}
           PORT: ${{ secrets.PORT }}
           PASSWORD: ${{ secrets.DEV_PASSWORD }}
-          script: cd ${{ secrets.DEV_PATH }} && git pull origin master && composer install 
+          script: cd ${{ secrets.DEV_PATH }} && git pull origin master && composer install --ignore-platform-reqs

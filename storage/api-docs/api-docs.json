@@ -9,7 +9,7 @@
     },
     "servers": [
         {
-            "url": "http://d3api.visiosoft.com.ng/api/",
+            "url": "https://d3api.visiosoft.com.ng/api/",
             "description": "D3 Store API Documentation"
         }
     ],

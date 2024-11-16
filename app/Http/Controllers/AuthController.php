@@ -199,7 +199,7 @@ class AuthController extends Controller
         }
         $user = User::create(array_merge(
                     $validator->validated(),
-                    ['password' => bcrypt($request->password), 'userlevel' => 0]
+                    ['password' => bcrypt($request->password), 'userlevel' => 0, 'verified' => false]
                 ));
 
 
@@ -217,10 +217,10 @@ class AuthController extends Controller
             ['id' => generateUUID(), 'user_id' => $user->id, 'token' => $code]
         ], uniqueBy: ['user_id'], update: ['token']);
 
-        Mail::send('emails.emailVerificationEmail', ['code' => $code, 'user' => $user], function($message) use($user){
-              $message->to($user->email);
-              $message->subject('Verify Email Address');
-        });
+        // Mail::send('emails.emailVerificationEmail', ['code' => $code, 'user' => $user], function($message) use($user){
+        //       $message->to($user->email);
+        //       $message->subject('Verify Email Address');
+        // });
         }
 
 
